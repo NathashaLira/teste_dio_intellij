@@ -57,7 +57,6 @@ class Livro{
                 ", numPaginas=" + numPaginas +
                 '}';
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(nome, numPaginas);
